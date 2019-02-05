@@ -14,12 +14,10 @@ import Header from './src/Components/Header';
 export default class App extends Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Header/>
-      <Text style={styles.welcome}>
-        Wassup
-      </Text>
-      </View>
+        <View style={styles.container}>
+        <Header headerText={"Albums"}/>
+        </View>
+
     );
   }
 }
@@ -27,13 +25,10 @@ export default class App extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
     backgroundColor: '#F5FCFF',
   },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
+
 });
+
+
+//
