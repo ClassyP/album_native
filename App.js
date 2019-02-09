@@ -13,8 +13,19 @@ import Header from './src/Components/Header';
 import AlbumList from './src/Components/AlbumList';
 
 
+
 export default class App extends Component {
+
+  state = { ready: false };
+
+  componentDidMount() {
+    console.log('hello me');
+  }
+
+  
   render() {
+
+
     return (
         <View style={styles.container}>
         <Header headerText={"Albums"}/>
