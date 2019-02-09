@@ -1,14 +1,19 @@
-import React from 'react';
+import React, { Component} from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 
-const Albumlist = () => {
-    return(
-        <View style={styles.thumbnailContainerStyle}>
-            <Text style={styles.headerContentStyle}> Albumlist!!!</Text>
-        </View>
-    );
-};
-export default Albumlist;
+class AlbumList extends Component {
+    render (){
+        return (
+            <View style={styles.thumbnailContainerStyle}>
+                <Text style={styles.headerContentStyle}>
+                    AlbumList!
+                </Text>
+            </View>
+        )
+    }
+}
+
+export default AlbumList;
 
 const styles = StyleSheet.create({
     headerContentStyle: {
