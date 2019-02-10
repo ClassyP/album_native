@@ -11,7 +11,7 @@ import React, {Component} from 'react';
 import { StyleSheet, View} from 'react-native';
 import Header from './src/Components/Header';
 import AlbumList from './src/Components/AlbumList';
-
+import axios from 'axios';
 
 
 export default class App extends Component {
@@ -19,10 +19,11 @@ export default class App extends Component {
   state = { ready: false };
 
   componentDidMount() {
-    console.log('hello me');
+    axios.get('https://rallycoding.herokuapp.com/api/music_albums')
+        .then(response => console.log(response));
   }
 
-  
+
   render() {
 
 
