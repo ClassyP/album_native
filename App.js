@@ -16,7 +16,7 @@ import axios from 'axios';
 
 export default class App extends Component {
 
-  state = { ready: false };
+  state = { albums: [] };
 
   componentDidMount() {
     axios.get('https://rallycoding.herokuapp.com/api/music_albums')
