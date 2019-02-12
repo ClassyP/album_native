@@ -6,13 +6,13 @@ import { Text, View } from "react-native";
 
 const Header = props => {
     return (
-        <View style={style.viewStyle}>
-            <Text style={style.textStyle}>{props.headerText}</Text>
+        <View style={styles.viewStyle}>
+            <Text style={styles.textStyle}>{props.headerText}</Text>
         </View>
     );
 };
 
-const style = {
+const styles = {
     viewStyle: {
         backgroundColor: "#e3e9f2",
         justifyContent: "center",
