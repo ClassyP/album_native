@@ -3,13 +3,13 @@ import { Text, TouchableOpacity } from "react-native";
 
 const Button = () => {
     return (
-        <TouchableOpacity style={styles.buttonStyle}>
-            <Text style={styles.textStyle}>Buy Me!</Text>
+        <TouchableOpacity style={style.buttonStyle}>
+            <Text style={style.textStyle}>Buy Me!</Text>
         </TouchableOpacity>
     );
 };
 
-const styles = {
+const style = {
     textStyle: {
         alignSelf: "center",
         color: "#007aff",

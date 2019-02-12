@@ -19,7 +19,7 @@ export default class App extends Component {
   console.log(this.state);
 
     return (
-        <View style={styles.container}>
+        <View style={style.container}>
         <Header headerText={"Albums"}/>
           <AlbumList/>
         </View>
@@ -28,7 +28,7 @@ export default class App extends Component {
   }
 }
 
-const styles = StyleSheet.create({
+const style = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#F5FCFF',

@@ -5,16 +5,14 @@ import { Text, View } from "react-native";
 // Make a component
 
 const Header = props => {
-    const { textStyle, viewStyle } = styles;
-
     return (
-        <View style={viewStyle}>
-            <Text style={textStyle}>{props.headerText}</Text>
+        <View style={style.viewStyle}>
+            <Text style={style.textStyle}>{props.headerText}</Text>
         </View>
     );
 };
 
-const styles = {
+const style = {
     viewStyle: {
         backgroundColor: "#e3e9f2",
         justifyContent: "center",

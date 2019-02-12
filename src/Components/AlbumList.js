@@ -34,7 +34,7 @@ class AlbumList extends Component {
 
 export default AlbumList;
 
-const styles = StyleSheet.create({
+const style = StyleSheet.create({
     headerContentStyle: {
         flexDirection: "column",
         justifyContent: "space-around"

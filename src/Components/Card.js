@@ -3,7 +3,7 @@ import { View } from 'react-native';
 
 const Card = (props) => {
     return (
-        <View style={styles.containerStyle}>
+        <View style={style.containerStyle}>
             {props.children}
     </View>
     )
@@ -11,7 +11,7 @@ const Card = (props) => {
 
 export default Card;
 
-const styles = {
+const style = {
     containerStyle: {
         borderWidth: 1,
         borderRadius: 2,
