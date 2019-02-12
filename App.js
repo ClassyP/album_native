@@ -8,7 +8,7 @@
  */
 
 import React, {Component} from 'react';
-import { StyleSheet, View, Text} from 'react-native';
+import { StyleSheet, View} from 'react-native';
 import Header from './src/Components/Header';
 import AlbumList from './src/Components/AlbumList';
 
