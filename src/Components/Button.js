@@ -4,10 +4,12 @@ import { Text, TouchableOpacity } from "react-native";
 const Button = () => {
     return (
         <TouchableOpacity style={styles.buttonStyle}>
-            <Text style={style.textStyle}>Buy Me!</Text>
+            <Text style={styles.textStyle}>Buy Me!</Text>
         </TouchableOpacity>
     );
 };
+
+export default Button;
 
 const styles = {
     textStyle: {
@@ -30,4 +32,4 @@ const styles = {
     }
 };
 
-export default Button;
+
