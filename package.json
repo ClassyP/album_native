@@ -10,7 +10,7 @@
     "axios": "^0.18.0",
     "nodemon": "^1.18.9",
     "react": "16.6.3",
-    "react-native": "0.58.3"
+    "react-native": "^0.58.5"
   },
   "devDependencies": {
     "babel-core": "^7.0.0-bridge.0",
